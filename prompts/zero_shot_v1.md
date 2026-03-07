@@ -8,7 +8,7 @@ Use the following definitions **only** to support orientation identification.
 
 **Do NOT:**
 - quote, restate, or paraphrase these definitions in the output
-- select an orientation based on thematic content alone (e.g., goals, emotions, family)
+- select an orientation based on thematic content alone (e.g., “goals,” “emotions,” “family”)
 
 **Base orientation selection on the interactional structure of the therapist’s intervention.**
 
@@ -38,20 +38,11 @@ A mindfulness-based behavioral therapy that aims to create a rich and meaningful
 
 ---
 
-## Internal Reasoning (Do NOT output)
-Before writing the summary, internally reason step by step about:
-- how the therapist structures the interaction across turns
-- what the client is being asked to do
-- which intervention is primary versus supportive
-- how this intervention generally functions in therapy
-
----
-
 ## Task
-Then write a therapist-oriented summary that:
+Given a therapy dialogue, write a summary that:
 
-- abstracts away from case-specific details (DO NOT mention the specific case)
-- explicitly states the psychotherapy orientation guiding the intervention by choosing **ONE** label from the following list:
+- abstracts away from the specific case (DO NOT mention the specific case)
+- explicitly states the psychotherapy orientation guiding the intervention by choosing **ONE** label:
   - Solution-Focused Brief Therapy (SFBT)
   - Cognitive Behavioral Therapy (CBT)
   - Rational Emotive Behavior Therapy (REBT)
@@ -61,24 +52,54 @@ Then write a therapist-oriented summary that:
   - Psychoanalytic Therapy
   - Acceptance Commitment Therapy (ACT)
   - or explicitly states **“Unknown (insufficient evidence)”** if the evidence is insufficient (do not hedge or soften the label)
-- identifies and names the therapist’s **primary intervention**
-- considers the functional intent beyond literal wording
-- explains the general purpose of the technique in therapy
-- distinguishes context-bound predictions from broader assumptions
-- explains how these beliefs logically drive behavior
+- identifies and names the therapist’s **primary technique** by inferring it from the therapist’s actions and question structure, not from explicit labels
+- briefly links the technique to the **cognitive mechanism** it targets, using clear, plain clinical language
+- identifies all **assumptions, rules, or belief structures**
+- distinguishes **brief, context-bound predictions** from **generalized assumptions or rules**, without referring to specific events
+- explains how such beliefs can drive behavior
+
+---
+
+## Technique Identification Rules
+- Base technique identification on observable interaction patterns  
+  (e.g., forms of questioning, simulation or enactment, imagined scenarios, behavioral rehearsal, perspective shifting)
+- Only name techniques that are **directly supported** by the therapist’s intervention
+- Replace all case-specific details with **generalized cognitive or interactional patterns**
 
 ---
 
 ## Do NOT
-- describe session timing or procedural steps
-- use hedging language
-- select an orientation solely because it is relational or non-directive
-- mention or paraphrase the definitions
+- retell the dialogue
+- mention the patient, therapist, or events
+- give advice or treatment steps
+- include emotions unless they are part of a cognitive mechanism
+- describe techniques in abstract or overly theoretical terms
+- use hedging language when naming psychotherapy orientation (e.g., “appears to be”, “seems”, “suggests”)
+- mention names, family members, specific relationships, or concrete events from the dialogue
+- describe the client’s personal situation or background
+- mention or paraphrase the psychotherapy orientation definitions
+
+---
+
+## Mandatory Label Requirement
+- If you identify a psychotherapy approach or intervention, you **MUST** explicitly name it in the summary text
+- If you cannot confidently identify one, explicitly state: **Unknown (insufficient evidence)**
+- Do not omit the label
+
+---
+
+## Heuristic
+Ask:  
+**“What is the therapist trying to elicit, test, or practice through this intervention?”**  
+and name the technique accordingly.
 
 ---
 
 ## Output Requirements
-- Write **2–3 concise sentences**
 - Use clear, plain language suitable for early-stage psychotherapy trainees
+- Use generalized formulations such as:  
+  *“The therapist guides the client to…”*
+- Output a **2–3 sentence professional summary** as a continuous prose paragraph suitable for a therapist
+- Begin the summary with a sentence
 
 Summary:
