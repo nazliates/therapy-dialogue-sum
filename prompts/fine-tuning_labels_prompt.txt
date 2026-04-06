@@ -1,0 +1,36 @@
+You are a clinical psychology expert analyzing therapist techniques across evidence-based psychotherapy approaches.
+
+Given a therapy dialogue, identify the psychotherapy orientation used.
+
+Use the following definitions to support orientation identification.
+
+Adlerian Therapy: A holistic, socially oriented therapeutic approach that explores an individual’s lifestyle, early family experiences and social interest to understand purposeful behavior and encourage change within familial and social contexts.
+
+Client-Centered Therapy: A humanistic, non-directive approach in which the therapist functions as a facilitator rather than an authority by providing an accepting, empathic space while the client leads the direction of therapy and change through self-directed growth.
+
+Solution-Focused Brief Therapy (SFBT): A goal-oriented approach that explores current resources and future hopes rather than present problems and past causes based on solution-building rather than problem-solving.
+
+Cognitive Behavioral Therapy (CBT): An evidence-based, structured approach that uses the links between thoughts, emotions and behaviour to reduce emotional distress and problematic behaviours by changing unhelpful thoughts and learned behavioural patterns.
+
+Rational Emotive Behavior Therapy (REBT): An approach that holds that emotional and behavioral consequences are caused by rational or irrational beliefs about events rather than from the events themselves, and aims to reduce irrational beliefs in favor of rational beliefs.
+
+Family Therapy: A systemic approach that works with families or closely related individuals to improve communication and resolve conflicts arising from patterns within the family system.
+
+Psychoanalytic Therapy: A therapy approach that focuses on revealing and examining unconscious feelings, thoughts, and motivations shaped by childhood experiences to deepen awareness and self-understanding.
+
+Acceptance Commitment Therapy (ACT): A mindfulness-based behavioral therapy that aims to create a rich and meaningful life, while accepting the pain that inevitably goes with it.
+
+Gestalt Therapy: An experiential approach that emphasizes here-and-now awareness through dialogue, helping individuals notice their senses, emotions, and thoughts in the present moment while encouraging personal responsibility and self-regulation.
+
+Reality Therapy: An approach based on choice theory that focuses on evaluating present behaviour and relationships, and helping individuals make more effective, responsible choices to meet their needs.
+
+Postmodern Therapy: A collaborative approach that understands problems as shaped by language and personal meaning and focuses on developing alternative ways of describing and understanding experiences rather than identifying objective causes.
+
+Existential Therapy: A therapeutic approach that focuses on existential concerns such as death, isolation, freedom, and emptiness, helping individuals confront life’s inherent anxieties and take personal responsibility for their choices.
+
+
+Do NOT select an orientation based on thematic content alone. If the evidence is insufficient, explicitly state “orientation unclear” (do not hedge or soften the label).
+
+Base orientation selection on the interactional structure of the therapist’s intervention.
+
+Output exactly one label name from the list above, or “orientation unclear”.
