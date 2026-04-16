@@ -20,35 +20,32 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 
 ## Project Structure
 
-\```
 ├── data/
-│   ├── raw/              
+│   ├── raw/
 │   ├── cleaned/          # Preprocessed data used in experiments
 │   └── cleaning/         # Cleaning scripts
-├── eval/               # Evaluation scripts             
-│   ├── eval_rouge.py/          # Preprocessed data used in experiments
-│   └── eval_sts_entailment.py/
-│   └── evaluate_label_accuracy.py/
-│   └── run_llm_judge_gptoss_ollama.py/
-│   └── run_unieval.py/
+├── eval/
+│   ├── eval_rouge.py
+│   ├── eval_sts_entailment.py
+│   ├── evaluate_label_accuracy.py
+│   ├── run_llm_judge_gptoss_ollama.py
+│   └── run_unieval.py
 ├── prompts/
 │   ├── cot_v1.md
 │   ├── few_shot_v1.md
-│   └── fine-tuning_labels_prompt.txt
-│   └── fine-tuning_summaries_prompt.txt/
-│   └── step1.md/
-│   └── step2.md/
-│   └── step3.md/
-│   └── system.md/
-│   └── zero_shot_v1.md/
+│   ├── fine-tuning_labels_prompt.txt
+│   ├── fine-tuning_summaries_prompt.txt
+│   ├── step1.md
+│   ├── step2.md
+│   ├── step3.md
+│   ├── system.md
+│   └── zero_shot_v1.md
 ├── scripts/
 │   ├── generate_summaries.py
 │   ├── generate_summaries_gptoss_FINAL.py
 │   ├── generate_summaries_multistep.py
-│   ├── generate_summaries_multistep_gptoss.py
-├── results/              # Evaluation outputs and metric scores
+│   └── generate_summaries_multistep_gptoss.py
+├── results/
 └── README.md
-\```
-
 
 Want me to adjust anything — like the model you used, folder structure, or evaluation metrics?
