@@ -20,6 +20,7 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 
 ## Project Structure
 
+```
 ├── data/
 │   ├── raw/
 │   ├── cleaned/          # Preprocessed data used in experiments
@@ -47,5 +48,6 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 │   └── generate_summaries_multistep_gptoss.py
 ├── results/
 └── README.md
+```
 
 Want me to adjust anything — like the model you used, folder structure, or evaluation metrics?
