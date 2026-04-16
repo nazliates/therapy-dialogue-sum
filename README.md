@@ -15,16 +15,14 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 ## Dataset
 
 - **Source:** [Psy-Insight][(https://github.com/ckqqqq/Psy-Insight)] — a public multiturn bilingual dataset consisting of annotated psychotherapy dialogues
-- **Preprocessing:** Raw transcripts were cleaned and normalized (see `data/cleaning/`).  
-  The cleaned dataset is available in `data/cleaned/`.
+- **Preprocessing:** Raw transcripts were cleaned and normalized.  
+  The cleaned test and training sets are available in `data/cleaned/`.
 
 ## Project Structure
 
 ```
 ├── data/
-│   ├── raw/
 │   ├── cleaned/          # Preprocessed data used in experiments
-│   └── cleaning/         # Cleaning scripts
 ├── eval/
 │   ├── eval_rouge.py
 │   ├── eval_sts_entailment.py
