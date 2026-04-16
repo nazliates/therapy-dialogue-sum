@@ -2,7 +2,6 @@ import json
 from collections import Counter
 from pathlib import Path
 
-# ---- EDIT THESE FILENAMES ----
 TRAIN_IN = "en_data_cleaned_train.json"
 TEST_IN  = "en_data_cleaned_test.json"
 
