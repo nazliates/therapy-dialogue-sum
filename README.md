@@ -22,7 +22,12 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 
 ```
 ├── data/
-│   ├── cleaned/          # Preprocessed data used in experiments
+│   ├── cleaning/
+│       ├── clean_psyinsight_keep_full_fields.py
+│       ├── merge_family_labels.py
+│       ├── split_psyinsight_stratified.py
+│   ├── en_data_cleaned_test_final.py
+│   ├── en_data_cleaned_train_final.py
 ├── eval/
 │   ├── eval_rouge.py
 │   ├── eval_sts_entailment.py
@@ -40,6 +45,12 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 │   ├── system.md
 │   └── zero_shot_v1.md
 ├── scripts/
+│   ├── fine-tuning/
+│       ├── train_gemma_summaries.py
+│       ├── train_labels_gemma.py
+│       ├── train_labels_llama.py
+│       ├── train_labels_qwen.py
+│       ├── train_qwen_summaries.py
 │   ├── generate_summaries.py
 │   ├── generate_summaries_gptoss_FINAL.py
 │   ├── generate_summaries_multistep.py
