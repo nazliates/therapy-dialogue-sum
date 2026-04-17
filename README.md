@@ -58,5 +58,3 @@ psychotherapy sessions with a focus on therapist-oriented insights using the cle
 ├── results/
 └── README.md
 ```
-
-Want me to adjust anything — like the model you used, folder structure, or evaluation metrics?
