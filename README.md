@@ -9,7 +9,7 @@ across the models Llama-3.2-3B-Instruct, gemma-3-4b-it, Qwen2.5-7B-Instruct and 
 
 Dialogue summarization, particularly in the mental health domain, presents unique challenges compared to conventional text summarization:
 long multi-turn dialogues, domain-specific clinical language, the need to preserve
-therapeutically relevant content, etc. This thesis explores automatic summarization of
+therapeutically relevant content, etc. This study explores automatic summarization of
 psychotherapy sessions with a focus on therapist-oriented insights using the clean English subset of Psy-Insight dataset.
 
 ## Dataset
